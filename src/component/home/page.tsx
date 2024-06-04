@@ -22,8 +22,7 @@ export default function Home() {
                 backgroundImage:
                   "url('http://hotelnine.mn/media/hotelnine/content/Home-slider/.1943818496043064224_1920_x_1309.jpg')",
                 backgroundPositionY: "0%",
-                width: "1920px",
-                height: "700px",
+
                 opacity: 1,
                 transform: "translate3d(0px, 0px, 0px)",
                 transitionDuration: "0ms",

@@ -126,7 +126,7 @@ export default function Footer() {
                 />
               </div>
               <div className="footer_menutxt">
-                <Link href="/about-us/">About us</Link>
+                <Link href="/about">About us</Link>
 
                 <Link href="/photo-gallery/">Photo gallery</Link>
 

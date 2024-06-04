@@ -74,6 +74,8 @@ export default function RootLayout({
         <Header />
         {children}
         <Footer />
+        <script src="jquery-3.7.1.min.js" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js" />
 
         <script src="static/js/scripts.js" async />
         <script src="static/bootstrap-3.3.7-dist/js/bootstrap.min.js" async />

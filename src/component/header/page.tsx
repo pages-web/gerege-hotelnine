@@ -1,8 +1,13 @@
-import React from "react";
+"use client";
+import React, { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 
 export default function Header() {
+  const [clicked, setClicked] = useState(false);
+  const handleClick = () => {
+    setClicked((previousState) => !previousState);
+  };
   // const MobileHeader = () => {
   //   // Event handler for initURL, replace with actual functionality
   //   const mobileInitURL = () => {
@@ -129,12 +134,16 @@ export default function Header() {
           </div>
         </div>
       </div>
-
       <div className="mobile-header visible-xs visible-sm">
         <div className="container">
           <div className="text-center">
             <div className="rel">
-              <button className="btn btn-primary pull-left" id="mobile-menu">
+              <button
+                className="btn btn-primary pull-left"
+                id="mobile-menu"
+                // onClick={handleClick}
+                onClick={() => setClicked(!clicked)}
+              >
                 <i className="fa fa-navicon"></i>
               </button>
 
@@ -195,7 +204,58 @@ export default function Header() {
             </div>
           </div>
         </div>
+        {clicked ? (
+          <div
+            className="mobile-menu visible-xs visible-sm "
+            style={{
+              background: "rgb(235,25,51)",
+              width: "250px",
+              position: "fixed",
+              top: "0",
+              left: "0",
+              height: "100%",
+              backgroundColor: "#111",
+              paddingTop: "20px",
+              transition: "0.3s",
+              zIndex: 1,
+            }}
+          >
+            <div
+              className="close-btn text-right"
+              id="close-btn"
+              onClick={() => setClicked(!clicked)}
+            >
+              <i className="fa fa-remove" /> Close
+            </div>
+            <div className="main-menu">
+              <Link href="/" target="_blank">
+                Home
+              </Link>
+              <Link href="/header/rooms&facilities">
+                {" "}
+                Rooms &amp; Facilities
+              </Link>
+              <Link href="/header/service">Services</Link>
+              <Link href="/header/special-offers"> Special offer </Link>
+              <Link href="/header/neer-the-hotel">Near the hotel</Link>
+              <Link href="/about">About us</Link>
+              <Link href="/photo-gallery/">Photo gallery</Link>
+              <Link href="/reviews/">Reviews</Link>
+              <Link href="/contact-us/">Contact us</Link>
+            </div>
+            <div className="text-center">
+              <h3>Choose language</h3>
+              <div className="languages">
+                <Link href="#">En</Link>
+                <Link href="#">Mn</Link>
+              </div>
+            </div>
+          </div>
+        ) : (
+          ""
+        )}
       </div>
+
       <div
         className="new_body"
         style={{
@@ -223,7 +283,10 @@ export default function Header() {
                   height={100}
                 />
               </Link>
-              <div className="pull-right" style={{ background: "#fff" }}>
+              <div
+                className="pull-right"
+                style={{ height: "100px", background: "#fff" }}
+              >
                 <div className="menu-container">
                   <ul>
                     <li>
