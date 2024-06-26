@@ -7,7 +7,7 @@ import Image from "next/image";
 import Button from "@mui/material/Button";
 import Menu from "@mui/material/Menu";
 import MenuItem from "@mui/material/MenuItem";
-import Fade from "@mui/material/Fade";
+
 import ArrowDropDownIcon from "@mui/icons-material/ArrowDropDown";
 
 export default function Header() {
@@ -56,7 +56,7 @@ export default function Header() {
                   className="youtube"
                 >
                   <Image
-                    src="http://hotelnine.mn/static/sites/hotelnine/default/images/ex.svg"
+                    src="/image/expedia.header.png"
                     alt="Expedia"
                     width={16}
                     height={16}
