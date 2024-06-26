@@ -7,8 +7,7 @@ export default function page() {
         <div
           className="image-header"
           style={{
-            backgroundImage:
-              'url("http://hotelnine.mn/static/sites/hotelnine/default/images/near.jpg")',
+            backgroundImage: 'url("/image/near.png")',
           }}
         >
           <h1>Near the hotel</h1>

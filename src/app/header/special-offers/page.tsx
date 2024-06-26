@@ -15,7 +15,7 @@ export default function page() {
                 href="/header/special-offers/early-reservation"
                 style={{
                   backgroundImage:
-                    'url("http://hotelnine.mn/media/hotelnine/content/offers/.9020877505510124683_800_x_400.JPG")',
+                    "url(/image/9020877505510124683_800_x_400.png)",
                 }}
               />
             </div>
@@ -38,7 +38,7 @@ export default function page() {
                 href="/header/special-offers/happy-couple"
                 style={{
                   backgroundImage:
-                    'url("http://hotelnine.mn/media/hotelnine/content/offers/.-7425883568329427110_800_x_400.jpg")',
+                    "url(/image/7425883568329427110_800_x_400.png)",
                 }}
               />
             </div>
@@ -61,7 +61,7 @@ export default function page() {
                 href="/header/special-offers/fall-discount-10"
                 style={{
                   backgroundImage:
-                    'url("http://hotelnine.mn/media/hotelnine/content/Home-slider/.1943818496043064224_800_x_400.jpg")',
+                    "url(/image/1943818496043064224_800_x_400.png)",
                 }}
               />
             </div>

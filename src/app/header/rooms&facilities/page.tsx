@@ -112,7 +112,7 @@ export default function page() {
                       >
                         <Image
                           alt="Business Suite Rooms"
-                          src="http://hotelnine.mn/media/hotelnine/content/rooms/ub/business/.5743752250678220977_750_x_300.jpg"
+                          src="/image/5743752250678220977_750_x_300.png"
                           width={750}
                           height={300}
                         />
@@ -179,7 +179,7 @@ export default function page() {
                       >
                         <Image
                           alt="Suite Rooms"
-                          src="http://hotelnine.mn/media/hotelnine/content/rooms/ub/suite/.4322902171187534721_750_x_300.jpg"
+                          src="/image/4322902171187534721_750_x_300.png"
                           width={750}
                           height={300}
                         />
@@ -246,7 +246,7 @@ export default function page() {
                       >
                         <Image
                           alt="Standard Rooms"
-                          src="http://hotelnine.mn/media/hotelnine/content/rooms/ub/.-7156350958280280742_750_x_300.JPG"
+                          src="/image/7156350958280280742_750_x_300.png"
                           width={750}
                           height={300}
                         />

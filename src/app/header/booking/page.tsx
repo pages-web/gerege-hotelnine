@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export default function page() {
   return (
-    <div id="content" style={{ display: "block" }}>
+    <div id="content" style={{ display: "block", height: "40vh" }}>
       <div className="container about">
         <div className="home-about" style={{ paddingTop: 30 }}>
           <article>{/* <Image alt="" src="" /> */}</article>
@@ -19,7 +19,9 @@ export default function page() {
               >
                 <Image
                   alt=""
-                  src="http://hotelnine.mn/static/sites/hotelnine/default/images/booking.png"
+                  src="/image/booking.png"
+                  width={300}
+                  height={83}
                 />
               </Link>
             </div>
@@ -31,7 +33,9 @@ export default function page() {
               >
                 <Image
                   alt=""
-                  src="http://hotelnine.mn/static/sites/hotelnine/default/images/expedia.png"
+                  src="/image/expedia.png"
+                  width={300}
+                  height={83}
                 />
               </Link>
             </div>

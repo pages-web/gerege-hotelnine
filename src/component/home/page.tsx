@@ -1,6 +1,9 @@
+"use client";
+
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
+import { useState } from "react";
 declare module "react" {
   interface HTMLAttributes<T> extends AriaAttributes, DOMAttributes<T> {
     fdprocessedid?: string;
@@ -8,6 +11,11 @@ declare module "react" {
 }
 
 export default function Home() {
+  const [clicked, setClicked] = useState(false);
+
+  const handleClick = () => {
+    setClicked((previousState) => !previousState);
+  };
   return (
     <div id="content">
       <div className="home-slider">
@@ -20,7 +28,7 @@ export default function Home() {
               className="swiper-slide fullheight swiper-slide-active"
               style={{
                 backgroundImage:
-                  "url('http://hotelnine.mn/media/hotelnine/content/Home-slider/.1943818496043064224_1920_x_1309.jpg')",
+                  "url(/image/1943818496043064224_1920_x_1309.png)",
                 backgroundPositionY: "0%",
 
                 opacity: 1,
@@ -50,7 +58,7 @@ export default function Home() {
               className="swiper-slide fullheight swiper-slide-next"
               style={{
                 backgroundImage:
-                  "url('http://hotelnine.mn/media/hotelnine/content/Home-slider/.1943818496043064224_1920_x_1309.jpg')",
+                  "url(/image/1943818496043064224_1920_x_1309.png)",
                 backgroundPositionY: "50%",
                 width: "1519px",
                 opacity: 0,
@@ -147,7 +155,7 @@ export default function Home() {
             <Image
               className="hidden-xs"
               alt=""
-              src="http://hotelnine.mn/static/sites/hotelnine/default/images/logo_un.png"
+              src="/image/logo_un.png"
               width={200}
               height={100}
             />
@@ -178,22 +186,23 @@ export default function Home() {
         </div>
 
         <div className="parallax">
-          <Link
-            href=""
+          <div
+            // href=""
             className="bg__360"
             data-toggle="modal"
             data-target="#modal360"
+            // onClick={handleClick}
           >
             <div className="text-center">
               <h4>Virtual tour</h4>
               <Image
                 alt=""
-                src="http://hotelnine.mn/static/sites/hotelnine/default/images/360_icon.png"
+                src="/image/360_icon.png"
                 width={100}
                 height={100}
               />
             </div>
-          </Link>
+          </div>
         </div>
 
         <div className="intro">
@@ -201,7 +210,7 @@ export default function Home() {
             <div className="thumb-image">
               <Image
                 alt=""
-                src="http://hotelnine.mn/media/hotelnine/content/Menu/hotel-menus/.-4606271830379144488_433_x_500.jpg"
+                src="/image/4606271830379144488_433_x_500.png"
                 width={500}
                 height={433}
               />
@@ -216,7 +225,7 @@ export default function Home() {
             <div className="thumb-image">
               <Image
                 alt=""
-                src="http://hotelnine.mn/media/hotelnine/content/Menu/hotel-menus/.-7425877568319427081_750_x_500.png"
+                src="/image/7425877568319427081_750_x_500.png"
                 width={750}
                 height={500}
               />
@@ -228,7 +237,7 @@ export default function Home() {
           </Link>
         </div>
       </div>
-
+      {/* {clicked ? ( */}
       <div
         className="modal fade"
         id="modal360"
@@ -244,6 +253,7 @@ export default function Home() {
                 className="close"
                 data-dismiss="modal"
                 aria-label="Close"
+                onClick={() => setClicked(!clicked)}
               >
                 <span aria-hidden="true">×</span>
               </button>
@@ -321,6 +331,9 @@ export default function Home() {
           </div>
         </div>
       </div>
+      {/* ) : (
+        ""
+      )} */}
     </div>
   );
 }

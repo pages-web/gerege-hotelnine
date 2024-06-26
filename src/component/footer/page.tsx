@@ -53,7 +53,7 @@ export default function Footer() {
                 >
                   <Image
                     alt="Booking.com"
-                    src="http://hotelnine.mn/static/sites/hotelnine/default/images/booking_com.png"
+                    src="/image/booking_com.png"
                     width={78}
                     height={13}
                   />
@@ -91,7 +91,7 @@ export default function Footer() {
                 >
                   <Image
                     alt=""
-                    src="http://what3words.com/calls/embed/text/bands.outcasts.holiday/dark"
+                    src="/image/bands.outcasts.holiday.png"
                     layout="responsive"
                     width={200}
                     height={20}
@@ -120,7 +120,7 @@ export default function Footer() {
               <div className="text-center footer-logo">
                 <Image
                   alt=""
-                  src="http://hotelnine.mn/static/sites/hotelnine/default/images/logo_white.png"
+                  src="/image/logo_white.png"
                   width={200}
                   height={100}
                 />

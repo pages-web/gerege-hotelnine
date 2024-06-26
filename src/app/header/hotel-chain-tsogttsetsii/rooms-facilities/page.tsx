@@ -112,7 +112,7 @@ export default function page() {
                       >
                         <Image
                           alt="Excutive suite"
-                          src="http://hotelnine.mn/media/hotelnine/content/rooms/tsogt/.-1378357345295356613_750_x_300.jpg"
+                          src="/image/1378357345295356613_750_x_300.png"
                           width={750}
                           height={300}
                         />
@@ -174,7 +174,7 @@ export default function page() {
                       <Link href="/suite/" className="hover-image">
                         <Image
                           alt="Suite"
-                          src="http://hotelnine.mn/media/hotelnine/content/rooms/tsogt/.4859451082772744240_750_x_300.JPG"
+                          src="/image/4859451082772744240_750_x_300.png"
                           width={750}
                           height={300}
                         />
@@ -236,7 +236,7 @@ export default function page() {
                       <Link href="/lux/" className="hover-image">
                         <Image
                           alt="Lux"
-                          src="http://hotelnine.mn/media/hotelnine/content/rooms/tsogt/.-4526757844484056771_750_x_300.JPG"
+                          src="/image/4526757844484056771_750_x_300.png"
                           width={750}
                           height={300}
                         />
@@ -298,7 +298,7 @@ export default function page() {
                       <Link href="/standart-double/" className="hover-image">
                         <Image
                           alt="Standart double"
-                          src="http://hotelnine.mn/media/hotelnine/content/rooms/tsogt/.1235989294903348822_750_x_300.jpg"
+                          src="/image/1235989294903348822_750_x_300.png"
                           width={750}
                           height={300}
                         />
@@ -360,7 +360,7 @@ export default function page() {
                       <Link href="/standart-twin/" className="hover-image">
                         <Image
                           alt="Standart twin"
-                          src="http://hotelnine.mn/media/hotelnine/content/rooms/tsogt/.1235989294903348822_750_x_300.jpg"
+                          src="/image/1235989294903348822_750_x_300.png"
                           width={750}
                           height={300}
                         />

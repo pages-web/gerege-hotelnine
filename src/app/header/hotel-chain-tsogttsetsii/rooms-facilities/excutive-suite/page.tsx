@@ -14,8 +14,7 @@ export default function page() {
                   href="http://hotelnine.mn/media/hotelnine/content/rooms/tsogt/Excutive-suite-1.jpg"
                   className="swiper-slide swiper-slide-active"
                   style={{
-                    backgroundImage:
-                      'url("http://hotelnine.mn/media/hotelnine/content/rooms/tsogt/Excutive-suite-1.jpg")',
+                    backgroundImage: "url(/image/Excutive-suite-1.png)",
                     width: 1140,
                     opacity: 1,
                     transform: "translate3d(0px, 0px, 0px)",
@@ -23,7 +22,7 @@ export default function page() {
                 >
                   <Image
                     alt=""
-                    src="http://hotelnine.mn/media/hotelnine/content/rooms/tsogt/Excutive-suite-1.jpg"
+                    src="/image/Excutive-suite-1.png"
                     width={800}
                     height={600}
                     data-description=""
@@ -33,8 +32,7 @@ export default function page() {
                   href="http://hotelnine.mn/media/hotelnine/content/rooms/tsogt/Excutive-suite.jpg"
                   className="swiper-slide swiper-slide-next"
                   style={{
-                    backgroundImage:
-                      'url("http://hotelnine.mn/media/hotelnine/content/rooms/tsogt/Excutive-suite.jpg")',
+                    backgroundImage: "url(/image/Excutive-suite.png)",
                     width: 1140,
                     opacity: 0,
                     transform: "translate3d(-1140px, 0px, 0px)",
@@ -42,7 +40,7 @@ export default function page() {
                 >
                   <Image
                     alt=""
-                    src="http://hotelnine.mn/media/hotelnine/content/rooms/tsogt/Excutive-suite.jpg"
+                    src="/image/Excutive-suite.png"
                     width={1200}
                     height={800}
                     data-description=""
@@ -141,8 +139,8 @@ export default function page() {
                 className="content_galleria"
                 style={{ height: 500 }}
               >
-                <Link href="http://hotelnine.mn/media/hotelnine/content/rooms/tsogt/Excutive-suite-1.jpg" />
-                <Link href="http://hotelnine.mn/media/hotelnine/content/rooms/tsogt/Excutive-suite.jpg" />
+                <Link href="/image/Excutive-suite-1.png" />
+                <Link href="/image/Excutive-suite.png" />
               </div>
               <p />
             </div>

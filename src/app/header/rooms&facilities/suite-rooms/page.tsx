@@ -15,11 +15,10 @@ export default function page() {
                 style={{ transitionDuration: "2000ms" }}
               >
                 <Link
-                  href="http://hotelnine.mn/media/hotelnine/content/rooms/ub/suite/_MG_0138.jpg"
+                  href="/image/MG_0138.png"
                   className="swiper-slide swiper-slide-prev"
                   style={{
-                    backgroundImage:
-                      'url("http://hotelnine.mn/media/hotelnine/content/rooms/ub/suite/_MG_0138.jpg")',
+                    backgroundImage: "url(/image/MG_0138.png)",
                     width: 1140,
                     opacity: 1,
                     transform: "translate3d(0px, 0px, 0px)",
@@ -28,18 +27,17 @@ export default function page() {
                 >
                   <Image
                     alt=""
-                    src="http://hotelnine.mn/media/hotelnine/content/rooms/ub/suite/_MG_0138.jpg"
+                    src="/image/MG_0138.png"
                     width={1200}
                     height={800}
                     data-description=""
                   />
                 </Link>
                 <Link
-                  href="http://hotelnine.mn/media/hotelnine/content/rooms/ub/suite/_MG_0205.jpg"
+                  href="/image/MG_0205.png"
                   className="swiper-slide swiper-slide-active"
                   style={{
-                    backgroundImage:
-                      'url("http://hotelnine.mn/media/hotelnine/content/rooms/ub/suite/_MG_0205.jpg")',
+                    backgroundImage: 'url("/image/MG_0205.png")',
                     width: 1140,
                     opacity: 1,
                     transform: "translate3d(-1140px, 0px, 0px)",
@@ -48,18 +46,17 @@ export default function page() {
                 >
                   <Image
                     alt=""
-                    src="http://hotelnine.mn/media/hotelnine/content/rooms/ub/suite/_MG_0205.jpg"
+                    src="/image/MG_0205.png"
                     data-description=""
                     width={1200}
                     height={800}
                   />
                 </Link>
                 <Link
-                  href="http://hotelnine.mn/media/hotelnine/content/rooms/ub/suite/_MG_0205.jpg"
+                  href="/image/MG_0205.png"
                   className="swiper-slide swiper-slide-next"
                   style={{
-                    backgroundImage:
-                      'url("http://hotelnine.mn/media/hotelnine/content/rooms/ub/suite/_MG_0205.jpg")',
+                    backgroundImage: 'url("/image/MG_0205.png")',
                     width: 1140,
                     opacity: 0,
                     transform: "translate3d(-2280px, 0px, 0px)",
@@ -68,7 +65,7 @@ export default function page() {
                 >
                   <Image
                     alt=""
-                    src="http://hotelnine.mn/media/hotelnine/content/rooms/ub/suite/_MG_0205.jpg"
+                    src="/image/MG_0205.png"
                     data-description=""
                     width={1200}
                     height={800}
@@ -168,9 +165,9 @@ export default function page() {
                   className="content_galleria"
                   style={{ height: 500 }}
                 >
-                  <Link href="http://hotelnine.mn/media/hotelnine/content/rooms/ub/suite/_MG_0138.jpg" />
-                  <Link href="http://hotelnine.mn/media/hotelnine/content/rooms/ub/suite/_MG_0205.jpg" />
-                  <Link href="http://hotelnine.mn/media/hotelnine/content/rooms/ub/suite/_MG_0205.jpg" />
+                  <Link href="/image/MG_0138.png" />
+                  <Link href="/image/MG_0205.png" />
+                  <Link href="/image/MG_0205.png" />
                 </div>
               </figure>
               <p />

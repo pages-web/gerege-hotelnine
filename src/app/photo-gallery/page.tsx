@@ -13,7 +13,7 @@ export default function page() {
               <Link className="gallery-item" href="/photo-gallery/rooms/">
                 <Image
                   alt="Rooms"
-                  src="http://hotelnine.mn/media/hotelnine/content/Gallery/.-5425868568293427037_600_x_500.JPG"
+                  src="/image/5425868568293427037_600_x_500.png"
                   width={360}
                   height={300}
                 />
@@ -27,7 +27,7 @@ export default function page() {
               >
                 <Image
                   alt="Couples room"
-                  src="http://hotelnine.mn/media/hotelnine/content/Gallery/.-5425868568292427036_600_x_500.jpg"
+                  src="/image/5425868568292427036_600_x_500.png"
                   width={360}
                   height={300}
                 />

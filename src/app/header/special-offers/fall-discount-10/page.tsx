@@ -8,8 +8,7 @@ export default function page() {
           <div
             className="boxed-title-image-cover"
             style={{
-              backgroundImage:
-                'url("http://hotelnine.mn/media/hotelnine/content/Home-slider/.1943818496043064224_1170_x_797.jpg")',
+              backgroundImage: "url(/image/1943818496043064224_1170_x_797.png)",
             }}
           >
             <h1>

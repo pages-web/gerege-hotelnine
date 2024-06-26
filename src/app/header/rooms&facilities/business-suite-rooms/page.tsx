@@ -11,11 +11,10 @@ export default function page() {
             <div className="swiper-container-room swiper-container-horizontal swiper-container-fade">
               <div id="content_gallery" className="swiper-wrapper">
                 <Link
-                  href="http://hotelnine.mn/media/hotelnine/content/rooms/ub/business/DSM_4935.jpg"
+                  href="/image/DSM_4935.png"
                   className="swiper-slide swiper-slide-active"
                   style={{
-                    backgroundImage:
-                      'url("http://hotelnine.mn/media/hotelnine/content/rooms/ub/business/DSM_4935.jpg")',
+                    backgroundImage: "url(/image/DSM_4935.png)",
                     width: 1140,
                     opacity: 1,
                     transform: "translate3d(0px, 0px, 0px)",
@@ -23,18 +22,17 @@ export default function page() {
                 >
                   <Image
                     alt=""
-                    src="http://hotelnine.mn/media/hotelnine/content/rooms/ub/business/DSM_4935.jpg"
+                    src="/image/DSM_4935.png"
                     data-description=""
                     width={1024}
                     height={768}
                   />
                 </Link>
                 <Link
-                  href="http://hotelnine.mn/media/hotelnine/content/rooms/ub/business/DSM_4942.jpg"
+                  href="/image/DSM_4942.png"
                   className="swiper-slide swiper-slide-next"
                   style={{
-                    backgroundImage:
-                      'url("http://hotelnine.mn/media/hotelnine/content/rooms/ub/business/DSM_4942.jpg")',
+                    backgroundImage: "url(/image/DSM_4942.png)",
                     width: 1140,
                     opacity: 0,
                     transform: "translate3d(-1140px, 0px, 0px)",
@@ -42,18 +40,17 @@ export default function page() {
                 >
                   <Image
                     alt=""
-                    src="http://hotelnine.mn/media/hotelnine/content/rooms/ub/business/DSM_4942.jpg"
+                    src="/image/DSM_4942.png"
                     data-description=""
                     width={1200}
                     height={800}
                   />
                 </Link>
                 <Link
-                  href="http://hotelnine.mn/media/hotelnine/content/rooms/ub/business/DSM_4944.jpg"
+                  href="/image/DSM_4944.png"
                   className="swiper-slide"
                   style={{
-                    backgroundImage:
-                      'url("http://hotelnine.mn/media/hotelnine/content/rooms/ub/business/DSM_4944.jpg")',
+                    backgroundImage: "url(/image/DSM_4944.png)",
                     width: 1140,
                     opacity: 0,
                     transform: "translate3d(-2280px, 0px, 0px)",
@@ -61,7 +58,7 @@ export default function page() {
                 >
                   <Image
                     alt=""
-                    src="http://hotelnine.mn/media/hotelnine/content/rooms/ub/business/DSM_4944.jpg"
+                    src="/image/DSM_4944.png"
                     data-description=""
                     width={1200}
                     height={800}
@@ -142,7 +139,7 @@ export default function page() {
                 <div className="col-sm-5-1">
                   <label className="ghost-element">Book</label>
                   <Link
-                    href="/booking/"
+                    href="/header/booking/"
                     className="btn btn-primary btn-lg-book btn-block"
                   >
                     Book
@@ -161,9 +158,9 @@ export default function page() {
                   className="content_galleria"
                   style={{ height: 500 }}
                 >
-                  <Link href="http://hotelnine.mn/media/hotelnine/content/rooms/ub/business/DSM_4935.jpg" />
-                  <Link href="http://hotelnine.mn/media/hotelnine/content/rooms/ub/business/DSM_4942.jpg" />
-                  <Link href="http://hotelnine.mn/media/hotelnine/content/rooms/ub/business/DSM_4944.jpg" />
+                  <Link href="/image/DSM_4935.png" />
+                  <Link href="/image/DSM_4942.png" />
+                  <Link href="/image/DSM_4944.png" />
                 </div>
               </figure>
               <p />
@@ -350,70 +347,6 @@ export default function page() {
           </div>
         </article>
       </section>
-      {/* <section className="gray">
-        <div className="container">
-          <div className="container-sm">
-            <div className="promotions">
-              <div className="text-center">
-                <h2>Promotions</h2>
-                <span className="header-border"></span>
-              </div>
-              <div className="row">
-                <div className="col-sm-4">
-                  <Link
-                    href="/book-and-choose-our-hotel22/"
-                    className="hover-image"
-                  >
-                    <Image src="http://hotelnine.mn/media/hotelnine/content/sample-images/promo.jpg" />
-                    <span>
-                      <i className="fa fa-gift"></i>
-                    </span>
-                  </Link>
-                  <h4>
-                    <Link href="/book-and-choose-our-hotel22/">
-                      Book and choose our hotel!
-                    </Link>
-                  </h4>
-                </div>
-
-                <div className="col-sm-4">
-                  <Link
-                    href="/book-and-choose-our-hotel2/"
-                    className="hover-image"
-                  >
-                    <Image src="http://hotelnine.mn/media/hotelnine/content/sample-images/promo.jpg" />
-                    <span>
-                      <i className="fa fa-gift"></i>
-                    </span>
-                  </Link>
-                  <h4>
-                    <Link href="/book-and-choose-our-hotel2/">
-                      Book and choose our hotel!
-                    </Link>
-                  </h4>
-                </div>
-
-                <div className="col-sm-4">
-                  <Link
-                    href="/book-and-choose-our-hotel/"
-                    className="hover-image"
-                  >
-                    <Image src="http://hotelnine.mn/media/hotelnine/content/sample-images/promo.jpg" />
-                    <span>
-                      <i className="fa fa-gift"></i>
-                    </span>
-                  </Link>
-                  <h4>
-                    <Link href="/book-and-choose-our-hotel/">
-                      Book and choose our hotel!
-                    </Link>
-                  </h4>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section> */}
     </div>
   );
 }

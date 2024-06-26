@@ -15,7 +15,7 @@ export default function page() {
               className="swiper-slide fullheight swiper-slide-active"
               style={{
                 backgroundImage:
-                  'url("http://hotelnine.mn/media/hotelnine/content/Home-slider/.-1966015296012080876_1920_x_1280.jpg")',
+                  "url(/image/1966015296012080876_1920_x_1280.png)",
                 backgroundPositionY: "50%",
                 width: 1519,
                 opacity: 1,
@@ -41,7 +41,7 @@ export default function page() {
               className="swiper-slide fullheight swiper-slide-next"
               style={{
                 backgroundImage:
-                  'url("http://hotelnine.mn/media/hotelnine/content/Home-slider/.-1966015296012080876_1920_x_1280.jpg")',
+                  "url(/image/1966015296012080876_1920_x_1280.png)",
                 backgroundPositionY: "0%",
                 width: 1519,
                 opacity: 0,
@@ -112,7 +112,7 @@ export default function page() {
           <div className="text-center">
             <Image
               alt=""
-              src="http://hotelnine.mn/static/sites/hotelnine/default/images/logo_un.png"
+              src="/image/logo_un.png"
               width={168}
               height={76}
               className="hidden-xs"
@@ -168,7 +168,7 @@ export default function page() {
             <div className="thumb-image">
               <Image
                 alt=""
-                src="http://hotelnine.mn/media/hotelnine/content/Menu/hotel-menus/.-4606271830379144488_433_x_500.jpg"
+                src="/image/4606271830379144488_433_x_500.png"
                 width={433}
                 height={500}
               />
@@ -182,7 +182,7 @@ export default function page() {
             <div className="thumb-image">
               <Image
                 alt=""
-                src="http://hotelnine.mn/media/hotelnine/content/Menu/hotel-menus/.-7425877568319427081_750_x_500.png"
+                src="/image/7425877568319427081_750_x_500.png"
                 width={750}
                 height={500}
               />

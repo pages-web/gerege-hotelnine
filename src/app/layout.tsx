@@ -19,26 +19,6 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        {/* <link
-          rel="stylesheet"
-          href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
-          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
-          crossOrigin="anonymous"
-        />
-
-        <link
-          rel="stylesheet"
-          href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
-          integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"
-          crossOrigin="anonymous"
-        />
-        <link
-          href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
-          rel="stylesheet"
-          integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
-          crossOrigin="anonymous"
-        /> */}
-
         <link rel="stylesheet" href="/static/css/timepicker.css" />
         <link rel="stylesheet" href="/static/datepicker/jquery-ui.min.css" />
         <link
@@ -74,8 +54,11 @@ export default function RootLayout({
         <Header />
         {children}
         <Footer />
-        <script src="jquery-3.7.1.min.js" />
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js" />
+        {/* <script src="jquery-3.7.1.min.js" async /> */}
+        <script
+          src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+          async
+        />
 
         <script src="static/js/scripts.js" async />
         <script src="static/bootstrap-3.3.7-dist/js/bootstrap.min.js" async />
@@ -83,11 +66,12 @@ export default function RootLayout({
         <script src="static/js/owl.carousel.min.js" async />
         <script src="static/datepicker/jquery-ui.min.js" async />
 
-        {/* <script
+        <script
           src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+          async
           integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
           crossOrigin="anonymous"
-        /> */}
+        />
       </body>
     </html>
   );

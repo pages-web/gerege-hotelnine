@@ -17,7 +17,7 @@ export default function page() {
                 className="service-thumb"
                 style={{
                   backgroundImage:
-                    'url("http://hotelnine.mn/media/hotelnine/content/services/.-7425876568312427127_800_x_400.JPG")',
+                    "url(/image/7425876568312427127_800_x_400.png)",
                 }}
               >
                 <Link
@@ -63,7 +63,7 @@ export default function page() {
                   <p>
                     <Image
                       alt=""
-                      src="http://hotelnine.mn/media/hotelnine/content/services/IMG_5874.JPG"
+                      src="/image/IMG_5874.png"
                       width={1200}
                       height={800}
                     />
@@ -89,7 +89,7 @@ export default function page() {
                 className="service-thumb"
                 style={{
                   backgroundImage:
-                    'url("http://hotelnine.mn/media/hotelnine/content/services/.-7425879568322427126_800_x_400.JPG")',
+                    "url(/image/7425879568322427126_800_x_400.png)",
                 }}
               >
                 <Link
@@ -135,7 +135,7 @@ export default function page() {
                   <p>
                     <Image
                       alt=""
-                      src="http://hotelnine.mn/media/hotelnine/content/services/IMG_5792.JPG"
+                      src="/image/IMG_5792.png"
                       width={1200}
                       height={800}
                     />
@@ -158,7 +158,7 @@ export default function page() {
                 className="service-thumb"
                 style={{
                   backgroundImage:
-                    'url("http://hotelnine.mn/media/hotelnine/content/services/.-7425876568313427128_800_x_400.JPG")',
+                    "url(/image/7425876568313427128_800_x_400.png)",
                 }}
               >
                 <Link
@@ -204,7 +204,7 @@ export default function page() {
                   <p>
                     <Image
                       alt=""
-                      src="http://hotelnine.mn/media/hotelnine/content/services/IMG_5800.JPG"
+                      src="/image/IMG_5800.png"
                       width={1200}
                       height={800}
                     />
@@ -226,7 +226,7 @@ export default function page() {
                 className="service-thumb"
                 style={{
                   backgroundImage:
-                    'url("http://hotelnine.mn/media/hotelnine/content/services/.-2975822494082443918_800_x_400.JPG")',
+                    "url(/image/2975822494082443918_800_x_400.png)",
                 }}
               >
                 <Link
@@ -272,7 +272,7 @@ export default function page() {
                   <p>
                     <Image
                       alt=""
-                      src="http://hotelnine.mn/media/hotelnine/content/services/moderan.JPG"
+                      src="/image/moderan.png"
                       width={1200}
                       height={800}
                     />
@@ -297,7 +297,7 @@ export default function page() {
                 className="service-thumb"
                 style={{
                   backgroundImage:
-                    'url("http://hotelnine.mn/media/hotelnine/content/services/.-1171537506800497001_800_x_400.jpg")',
+                    "url(/image/1171537506800497001_800_x_400.png)",
                 }}
               ></div>
             </div>
@@ -334,7 +334,7 @@ export default function page() {
                   <p>
                     <Image
                       alt=""
-                      src="http://hotelnine.mn/media/hotelnine/content/services/mnomads.jpg"
+                      src="/image/mnomads.png"
                       width={1200}
                       height={800}
                     />
@@ -359,7 +359,7 @@ export default function page() {
                 className="service-thumb"
                 style={{
                   backgroundImage:
-                    'url("http://hotelnine.mn/media/hotelnine/content/services/.-8509406950828721856_800_x_400.jpg")',
+                    "url(/image/8509406950828721856_800_x_400.png)",
                 }}
               >
                 <Link
@@ -405,7 +405,7 @@ export default function page() {
                   <p>
                     <Image
                       alt=""
-                      src="http://hotelnine.mn/media/hotelnine/content/services/1170-x410-luggage.jpg"
+                      src="/image/1170-x410-luggage.png"
                       width={1200}
                       height={800}
                     />
@@ -429,7 +429,7 @@ export default function page() {
                 className="service-thumb"
                 style={{
                   backgroundImage:
-                    'url("http://hotelnine.mn/media/hotelnine/content/services/.-7425876568314427086_800_x_400.JPG")',
+                    "url(/image/7425876568314427086_800_x_400.png)",
                 }}
               >
                 <Link
@@ -475,7 +475,7 @@ export default function page() {
                   <p>
                     <Image
                       alt=""
-                      src="http://hotelnine.mn/media/hotelnine/content/services/IMG_5815.JPG"
+                      src="/image/IMG_5815.png"
                       width={1200}
                       height={800}
                     />
@@ -497,7 +497,7 @@ export default function page() {
                 className="service-thumb"
                 style={{
                   backgroundImage:
-                    'url("http://hotelnine.mn/media/hotelnine/content/services/.-5425869568293427010_800_x_400.jpg")',
+                    "url(/image/5425869568293427010_800_x_400.png)",
                 }}
               >
                 <Link
@@ -543,7 +543,7 @@ export default function page() {
                   <p>
                     <Image
                       alt=""
-                      src="http://hotelnine.mn/media/hotelnine/content/services/IMG_3303.jpg"
+                      src="/image/IMG_3303.png"
                       width={1200}
                       height={800}
                     />
@@ -568,7 +568,7 @@ export default function page() {
                 className="service-thumb"
                 style={{
                   backgroundImage:
-                    'url("http://hotelnine.mn/media/hotelnine/content/services/.-6425877568320427119_800_x_400.jpg")',
+                    "url(/image/6425877568320427119_800_x_400.png)",
                 }}
               ></div>
             </div>
@@ -605,7 +605,7 @@ export default function page() {
                   <p>
                     <Image
                       alt=""
-                      src="http://hotelnine.mn/media/hotelnine/content/services/IMG_2668.jpg"
+                      src="/image/IMG_2668.png"
                       width={1200}
                       height={800}
                     />
@@ -631,7 +631,7 @@ export default function page() {
                 className="service-thumb"
                 style={{
                   backgroundImage:
-                    'url("http://hotelnine.mn/media/hotelnine/content/services/.-992067526353350922_800_x_400.jpg")',
+                    "url(/image/992067526353350922_800_x_400.png)",
                 }}
               ></div>
             </div>
@@ -668,7 +668,7 @@ export default function page() {
                   <p>
                     <Image
                       alt=""
-                      src="http://hotelnine.mn/media/hotelnine/content/services/2.jpg"
+                      src="/image/2.png"
                       width={1200}
                       height={800}
                     />
@@ -692,7 +692,7 @@ export default function page() {
                 className="service-thumb"
                 style={{
                   backgroundImage:
-                    'url("http://hotelnine.mn/media/hotelnine/content/services/.-992067526353350925_800_x_400.JPG")',
+                    "url(/image/992067526353350925_800_x_400.png)",
                 }}
               ></div>
             </div>
@@ -729,7 +729,7 @@ export default function page() {
                   <p>
                     <Image
                       alt=""
-                      src="http://hotelnine.mn/media/hotelnine/content/services/7.JPG"
+                      src="/image/7.png"
                       width={1200}
                       height={800}
                     />
@@ -751,7 +751,7 @@ export default function page() {
                 className="service-thumb"
                 style={{
                   backgroundImage:
-                    'url("http://hotelnine.mn/media/hotelnine/content/services/.-7425878568329427102_800_x_400.JPG")',
+                    "url(/image/7425878568329427102_800_x_400.png)",
                 }}
               ></div>
             </div>
@@ -788,7 +788,7 @@ export default function page() {
                   <p>
                     <Image
                       alt=""
-                      src="http://hotelnine.mn/media/hotelnine/content/services/IMG_5648.JPG"
+                      src="/image/IMG_5648.png"
                       width={1200}
                       height={800}
                     />
@@ -812,7 +812,7 @@ export default function page() {
                 className="service-thumb"
                 style={{
                   backgroundImage:
-                    'url("http://hotelnine.mn/media/hotelnine/content/Gallery/.-5425868568296427025_800_x_400.jpg")',
+                    "url(/image/5425868568296427025_800_x_400.png)",
                 }}
               ></div>
             </div>
@@ -849,7 +849,7 @@ export default function page() {
                   <p>
                     <Image
                       alt=""
-                      src="http://hotelnine.mn/media/hotelnine/content/Gallery/IMG_3294.jpg"
+                      src="/image/IMG_3294.png"
                       width={1200}
                       height={800}
                     />
@@ -874,7 +874,7 @@ export default function page() {
                 className="service-thumb"
                 style={{
                   backgroundImage:
-                    'url("http://hotelnine.mn/media/hotelnine/content/services/.-7136451822918960174_800_x_400.jpg")',
+                    "url(/image/7136451822918960174_800_x_400.png)",
                 }}
               ></div>
             </div>
@@ -911,7 +911,7 @@ export default function page() {
                   <p>
                     <Image
                       alt=""
-                      src="http://hotelnine.mn/media/hotelnine/content/services/additional.jpg"
+                      src="/image/additional.png"
                       width={1200}
                       height={800}
                     />
@@ -933,7 +933,7 @@ export default function page() {
                 className="service-thumb"
                 style={{
                   backgroundImage:
-                    'url("http://hotelnine.mn/media/hotelnine/content/services/.-7425878568329427102_800_x_400.JPG")',
+                    "url(/image/7425878568329427102_800_x_400.png)",
                 }}
               ></div>
             </div>
@@ -970,7 +970,7 @@ export default function page() {
                   <p>
                     <Image
                       alt=""
-                      src="http://hotelnine.mn/media/hotelnine/content/services/IMG_5648.JPG"
+                      src="/image/IMG_5648.png"
                       width={1200}
                       height={800}
                     />
@@ -995,7 +995,7 @@ export default function page() {
                 className="service-thumb"
                 style={{
                   backgroundImage:
-                    'url("http://hotelnine.mn/media/hotelnine/content/services/.3389025820485050843_800_x_400.jpg")',
+                    "url(/image/3389025820485050843_800_x_400.png)",
                 }}
               >
                 <Link
@@ -1041,7 +1041,7 @@ export default function page() {
                   <p>
                     <Image
                       alt=""
-                      src="http://hotelnine.mn/media/hotelnine/content/services/private-driver-for-hire.jpg"
+                      src="/image/private-driver-for-hire.png"
                       width={1200}
                       height={800}
                     />

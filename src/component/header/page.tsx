@@ -1,24 +1,30 @@
 "use client";
-import React, { useState } from "react";
+
+import * as React from "react";
+import { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
+import Button from "@mui/material/Button";
+import Menu from "@mui/material/Menu";
+import MenuItem from "@mui/material/MenuItem";
+import Fade from "@mui/material/Fade";
+import ArrowDropDownIcon from "@mui/icons-material/ArrowDropDown";
 
 export default function Header() {
   const [clicked, setClicked] = useState(false);
-  const handleClick = () => {
-    setClicked((previousState) => !previousState);
+
+  const handleMenuClick = () => {
+    setClicked(false);
   };
-  // const MobileHeader = () => {
-  //   // Event handler for initURL, replace with actual functionality
-  //   const mobileInitURL = () => {
-  //     console.log('initURL called');
-  //   };
-  // }
-  // const NewBody = () => {
-  //   const newBodyInitURL = () => {
-  //     console.log("initURL called");
-  //   };
-  // };
+
+  const [anchorEl, setAnchorEl] = React.useState<null | HTMLElement>(null);
+  const open = Boolean(anchorEl);
+  const handleClick = (event: React.MouseEvent<HTMLElement>) => {
+    setAnchorEl(event.currentTarget);
+  };
+  const handleClose = () => {
+    setAnchorEl(null);
+  };
 
   return (
     <div className="menu fixed-text fixed-menu">
@@ -69,7 +75,7 @@ export default function Header() {
                   className="booking_com"
                 >
                   <Image
-                    src="http://hotelnine.mn/static/sites/hotelnine/default/images/booking_com.png"
+                    src="/image/booking_com.png"
                     alt="Booking.com"
                     width={91}
                     height={15}
@@ -90,7 +96,7 @@ export default function Header() {
                   >
                     <Image
                       className="usa"
-                      src="http://hotelnine.mn/static/sites/hotelnine/default/images/usa.png"
+                      src="/image/usa.png"
                       alt="USA"
                       width={16}
                       height={16}
@@ -107,7 +113,7 @@ export default function Header() {
                       <Link href="javascript:;" rel="en" className="lang">
                         <Image
                           className="usa"
-                          src="http://hotelnine.mn/static/sites/hotelnine/default/images/usa.png"
+                          src="/image/usa.png"
                           alt="USA"
                           width={16}
                           height={16}
@@ -119,7 +125,7 @@ export default function Header() {
                       <Link href="javascript:;" rel="mn" className="lang">
                         <Image
                           className="usa"
-                          src="http://hotelnine.mn/static/sites/hotelnine/default/images/usa.png"
+                          src="/image/mng.png"
                           alt="Mongolia"
                           width={16}
                           height={16}
@@ -141,7 +147,6 @@ export default function Header() {
               <button
                 className="btn btn-primary pull-left"
                 id="mobile-menu"
-                // onClick={handleClick}
                 onClick={() => setClicked(!clicked)}
               >
                 <i className="fa fa-navicon"></i>
@@ -149,7 +154,7 @@ export default function Header() {
 
               <Link href="/" className="logo">
                 <Image
-                  src="http://hotelnine.mn/static/sites/hotelnine/default/images/logo_un.png"
+                  src="/image/logo_un.png"
                   alt="Hotel Nine"
                   width={400}
                   height={100}
@@ -204,7 +209,7 @@ export default function Header() {
             </div>
           </div>
         </div>
-        {clicked ? (
+        {clicked && (
           <div
             className="mobile-menu visible-xs visible-sm "
             style={{
@@ -231,63 +236,87 @@ export default function Header() {
               <Link href="/" target="_blank">
                 Home
               </Link>
-              <Link href="/header/rooms&facilities">
+              <Link href="/header/rooms&facilities" onClick={handleMenuClick}>
                 {" "}
                 Rooms &amp; Facilities
               </Link>
-              <Link href="/header/service">Services</Link>
-              <Link href="/header/special-offers"> Special offer </Link>
-              <Link href="/header/neer-the-hotel">Near the hotel</Link>
-              <Link href="/about">About us</Link>
-              <Link href="/photo-gallery/">Photo gallery</Link>
-              <Link href="/reviews/">Reviews</Link>
-              <Link href="/contact-us/">Contact us</Link>
+              <Link href="/header/service" onClick={handleMenuClick}>
+                Services
+              </Link>
+              <Link href="/header/special-offers" onClick={handleMenuClick}>
+                {" "}
+                Special offer{" "}
+              </Link>
+              <Link href="/header/neer-the-hotel" onClick={handleMenuClick}>
+                Near the hotel
+              </Link>
+              <Link href="/about" onClick={handleMenuClick}>
+                About us
+              </Link>
+              <Link href="/photo-gallery/" onClick={handleMenuClick}>
+                Photo gallery
+              </Link>
+              <Link href="/reviews/" onClick={handleMenuClick}>
+                Reviews
+              </Link>
+              <Link href="/contact-us/" onClick={handleMenuClick}>
+                Contact us
+              </Link>
             </div>
             <div className="text-center">
               <h3>Choose language</h3>
               <div className="languages">
-                <Link href="#">En</Link>
-                <Link href="#">Mn</Link>
+                <Link href="#" onClick={handleMenuClick}>
+                  En
+                </Link>
+                <Link href="#" onClick={handleMenuClick}>
+                  Mn
+                </Link>
               </div>
             </div>
           </div>
-        ) : (
-          ""
         )}
       </div>
 
       <div
         className="new_body"
         style={{
-          backgroundImage:
-            'url("http://hotelnine.mn/static/sites/hotelnine/default/images/hee1.png")',
+          backgroundImage: "url(/image/hee1.png)",
           backgroundRepeat: "repeat-x",
+          height: "130px",
         }}
       >
         <div className="menu hidden-xs hidden-sm">
           <div className="container">
-            <div className="rel">
+            <div
+              className="rel"
+              style={{
+                display: "flex",
+                justifyContent: "space-between",
+              }}
+            >
               <Link href="/" className="logo">
                 <Image
                   className="original-logo"
-                  src="http://hotelnine.mn/static/sites/hotelnine/default/images/logo.png"
+                  src="/image/logo.png"
                   alt="Hotel Nine"
                   width={400}
                   height={100}
                 />
                 <Image
                   className="fixed-logo"
-                  src="http://hotelnine.mn/static/sites/hotelnine/default/images/logo-fixed.jpg"
+                  src="/image/logo-fixed.png"
                   alt="Hotel Nine"
                   width={200}
                   height={100}
                 />
               </Link>
+
               <div
-                className="pull-right"
-                style={{ height: "100px", background: "#fff" }}
+                // className="pull-right"
+                style={{ background: "#fff" }}
               >
-                <div className="menu-container">
+                <div className="menu-container" style={{ display: "flex" }}>
                   <ul>
                     <li>
                       <Link href="/">Home</Link>
@@ -306,56 +335,73 @@ export default function Header() {
                     <li>
                       <Link href="/header/neer-the-hotel">Near the hotel</Link>
                     </li>
-                    <div className="dropdown inline-block testerr">
-                      <Link
-                        href=""
-                        id="hoteldrop"
-                        className="original"
-                        type="button"
-                        data-toggle="dropdown"
-                        aria-haspopup="true"
-                        aria-expanded="false"
-                      >
-                        Ulaanbaatar chain
-                        <span className="caret"></span>
-                      </Link>
-                      <Link
-                        href=""
-                        id="hoteldrop"
-                        style={{ display: "none" }}
-                        className="cloned"
-                        type="button"
-                        data-toggle="dropdown"
-                        aria-haspopup="true"
-                        aria-expanded="false"
+                  </ul>
+
+                  <div
+                    className="dropdown inline-block testerr"
+                    style={{
+                      width: "170px",
+                      height: "38px",
+                      border: "1px solid red",
+                    }}
+                  >
+                    <Button
+                      id="fade-button"
+                      aria-controls={open ? "fade-menu" : undefined}
+                      aria-haspopup="true"
+                      aria-expanded={open ? "true" : undefined}
+                      onClick={handleClick}
+                    >
+                      <div
+                        style={{
+                          fontSize: "13px",
+                          color: "black",
+                          display: "flex",
+                          alignItems: "center",
+                          gap: "5px",
+                        }}
                       >
                         Hotel nine chain
-                        <span className="caret"></span>
-                      </Link>
-                      <ul className="dropdown-menu" aria-labelledby="hoteldrop">
-                        <li>
-                          <Link
-                            href="/?h5=dd"
-                            // onClick={newBodyInitURL}
-                            className="noajax hotel-thumb nub"
-                          >
-                            Ulaanbaatar Chain
-                          </Link>
-                        </li>
-                        <li>
-                          <Link
-                            href="/header/hotel-chain-tsogttsetsii"
-                            className="noajax hotel-thumb"
-                          >
-                            Tsogt tsegtsii Chain
-                          </Link>
-                        </li>
-                      </ul>
-                    </div>
-                  </ul>
+                        <ArrowDropDownIcon />
+                      </div>
+                    </Button>
+                    <Menu
+                      id="fade-menu"
+                      MenuListProps={{
+                        "aria-labelledby": "fade-button",
+                      }}
+                      anchorEl={anchorEl}
+                      open={open}
+                      onClose={handleClose}
+                    >
+                      <MenuItem
+                        onClick={handleClose}
+                        style={{ width: "160px" }}
+                      >
+                        {" "}
+                        <Link
+                          href="/"
+                          className="noajax hotel-thumb nub"
+                          style={{ fontSize: "12px" }}
+                        >
+                          Ulaanbaatar Chain
+                        </Link>
+                      </MenuItem>
+                      <MenuItem onClick={handleClose}>
+                        {" "}
+                        <Link
+                          href="/header/hotel-chain-tsogttsetsii"
+                          className="noajax hotel-thumb"
+                          style={{ fontSize: "12px" }}
+                        >
+                          Tsogt tsegtsii Chain
+                        </Link>
+                      </MenuItem>
+                    </Menu>
+                  </div>
                 </div>
               </div>
-              <div className="clearfix"></div>
+              {/* <div className="clearfix"></div> */}
             </div>
           </div>
         </div>

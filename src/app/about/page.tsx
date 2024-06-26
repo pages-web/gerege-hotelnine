@@ -17,11 +17,10 @@ export default function page() {
                 style={{ transitionDuration: "0ms" }}
               >
                 <Link
-                  href="http://hotelnine.mn/media/hotelnine/content/pages/about/222.CR2.jpg"
+                  href="/image/222.CR2.png"
                   className="swiper-slide swiper-slide-prev"
                   style={{
-                    backgroundImage:
-                      'url("http://hotelnine.mn/media/hotelnine/content/pages/about/222.CR2.jpg")',
+                    backgroundImage: "url(/image/222.CR2.png)",
                     width: 1140,
                     opacity: 1,
                     transform: "translate3d(0px, 0px, 0px)",
@@ -30,18 +29,17 @@ export default function page() {
                 >
                   <Image
                     alt=""
-                    src="http://hotelnine.mn/media/hotelnine/content/pages/about/222.CR2.jpg"
+                    src="/image/222.CR2.png"
                     width={1140}
                     height={390}
                     data-description=""
                   />
                 </Link>
                 <Link
-                  href="http://hotelnine.mn/media/hotelnine/content/pages/about/333.JPG"
+                  href="/image/333.png"
                   className="swiper-slide swiper-slide-active"
                   style={{
-                    backgroundImage:
-                      'url("http://hotelnine.mn/media/hotelnine/content/pages/about/333.JPG")',
+                    backgroundImage: "url(/image/333.png)",
                     width: 1140,
                     opacity: 1,
                     transform: "translate3d(-1140px, 0px, 0px)",
@@ -50,7 +48,7 @@ export default function page() {
                 >
                   <Image
                     alt=""
-                    src="http://hotelnine.mn/media/hotelnine/content/pages/about/333.JPG"
+                    src="/image/333.png"
                     data-description=""
                     width={1140}
                     height={500}
@@ -145,8 +143,8 @@ export default function page() {
                 className="content_galleria"
                 style={{ height: 500 }}
               >
-                <Link href="http://hotelnine.mn/media/hotelnine/content/pages/about/222.CR2.jpg" />
-                <Link href="http://hotelnine.mn/media/hotelnine/content/pages/about/333.JPG" />
+                <Link href="/image/222.CR2.png" />
+                <Link href="/image/333.png" />
               </div>
               <p />
               <div>
@@ -177,12 +175,7 @@ export default function page() {
               >
                 <div className="text-center">
                   <h4>Virtual tour</h4>
-                  <Image
-                    alt=""
-                    src="http://hotelnine.mn/static/sites/hotelnine/default/images/360_icon.png"
-                    width={70}
-                    height={70}
-                  />
+                  <Image alt="" src="/image/360_icon" width={70} height={70} />
                 </div>
               </Link>
             </div>

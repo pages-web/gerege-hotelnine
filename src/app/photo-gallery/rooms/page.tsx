@@ -18,11 +18,10 @@ export default function page() {
                 }}
               >
                 <Link
-                  href="http://hotelnine.mn/media/hotelnine/content/Gallery/IMG_3261.JPG"
+                  href="/image/IMG_3261.png"
                   className="swiper-slide"
                   style={{
-                    backgroundImage:
-                      'url("http://hotelnine.mn/media/hotelnine/content/Gallery/IMG_3261.JPG")',
+                    backgroundImage: "url(/image/IMG_3261.png)",
                     width: 1140,
                     transform:
                       "translate3d(0px, 0px, -300px) rotateX(0deg) rotateY(150deg)",
@@ -32,7 +31,7 @@ export default function page() {
                 >
                   <Image
                     alt=""
-                    src="http://hotelnine.mn/media/hotelnine/content/Gallery/IMG_3261.JPG"
+                    src="/image/IMG_3261.png"
                     width={1140}
                     height={600}
                     data-description=""
@@ -47,11 +46,10 @@ export default function page() {
                   />
                 </Link>
                 <Link
-                  href="http://hotelnine.mn/media/hotelnine/content/Gallery/IMG_3275.JPG"
+                  href="/image/IMG_3275.png"
                   className="swiper-slide"
                   style={{
-                    backgroundImage:
-                      'url("http://hotelnine.mn/media/hotelnine/content/Gallery/IMG_3275.JPG")',
+                    backgroundImage: "url(/image/IMG_3275.png)",
                     width: 1140,
                     transform:
                       "translate3d(0px, 0px, -200px) rotateX(0deg) rotateY(100deg)",
@@ -61,7 +59,7 @@ export default function page() {
                 >
                   <Image
                     alt=""
-                    src="http://hotelnine.mn/media/hotelnine/content/Gallery/IMG_3275.JPG"
+                    src="/image/IMG_3275.png"
                     width={1140}
                     height={600}
                     data-description=""
@@ -76,11 +74,10 @@ export default function page() {
                   />
                 </Link>
                 <Link
-                  href="http://hotelnine.mn/media/hotelnine/content/Gallery/IMG_3294.jpg"
+                  href="/image/IMG_3294.png"
                   className="swiper-slide swiper-slide-prev"
                   style={{
-                    backgroundImage:
-                      'url("http://hotelnine.mn/media/hotelnine/content/Gallery/IMG_3294.jpg")',
+                    backgroundImage: "url(/image/IMG_3294.png)",
                     width: 1140,
                     transform:
                       "translate3d(0px, 0px, -100px) rotateX(0deg) rotateY(50deg)",
@@ -90,7 +87,7 @@ export default function page() {
                 >
                   <Image
                     alt=""
-                    src="http://hotelnine.mn/media/hotelnine/content/Gallery/IMG_3294.jpg"
+                    src="/image/IMG_3294.png"
                     width={1140}
                     height={600}
                     data-description=""
@@ -105,11 +102,10 @@ export default function page() {
                   />
                 </Link>
                 <Link
-                  href="http://hotelnine.mn/media/hotelnine/content/Gallery/IMG_3299.jpg"
+                  href="/image/IMG_3299.png"
                   className="swiper-slide swiper-slide-active"
                   style={{
-                    backgroundImage:
-                      'url("http://hotelnine.mn/media/hotelnine/content/Gallery/IMG_3299.jpg")',
+                    backgroundImage: "url(/image/IMG_3299.png)",
                     width: 1140,
                     transform:
                       "translate3d(0px, 0px, 0px) rotateX(0deg) rotateY(0deg)",
@@ -119,7 +115,7 @@ export default function page() {
                 >
                   <Image
                     alt=""
-                    src="http://hotelnine.mn/media/hotelnine/content/Gallery/IMG_3299.jpg"
+                    src="/image/IMG_3299.png"
                     width={1140}
                     height={600}
                     data-description=""
@@ -134,11 +130,10 @@ export default function page() {
                   />
                 </Link>
                 <Link
-                  href="http://hotelnine.mn/media/hotelnine/content/Gallery/IMG_3303.jpg"
+                  href="/image/IMG_3303.png"
                   className="swiper-slide swiper-slide-next"
                   style={{
-                    backgroundImage:
-                      'url("http://hotelnine.mn/media/hotelnine/content/Gallery/IMG_3303.jpg")',
+                    backgroundImage: "url(/image/IMG_3303.png)",
                     width: 1140,
                     transform:
                       "translate3d(0px, 0px, -100px) rotateX(0deg) rotateY(-50deg)",
@@ -148,7 +143,7 @@ export default function page() {
                 >
                   <Image
                     alt=""
-                    src="http://hotelnine.mn/media/hotelnine/content/Gallery/IMG_3303.jpg"
+                    src="/image/IMG_3303.png"
                     width={1140}
                     height={600}
                     data-description=""
@@ -163,11 +158,10 @@ export default function page() {
                   />
                 </Link>
                 <Link
-                  href="http://hotelnine.mn/media/hotelnine/content/Gallery/IMG_3307.jpg"
+                  href="/image/IMG_3307.png"
                   className="swiper-slide"
                   style={{
-                    backgroundImage:
-                      'url("http://hotelnine.mn/media/hotelnine/content/Gallery/IMG_3307.jpg")',
+                    backgroundImage: "url(s/image/IMG_3307.png)",
                     width: 1140,
                     transform:
                       "translate3d(0px, 0px, -200px) rotateX(0deg) rotateY(-100deg)",
@@ -177,7 +171,7 @@ export default function page() {
                 >
                   <Image
                     alt=""
-                    src="http://hotelnine.mn/media/hotelnine/content/Gallery/IMG_3307.jpg"
+                    src="/image/IMG_3307.png"
                     width={1140}
                     height={600}
                     data-description=""
@@ -212,12 +206,12 @@ export default function page() {
             className="content_galleria"
             style={{ height: 500 }}
           >
-            <Link href="http://hotelnine.mn/media/hotelnine/content/Gallery/IMG_3261.JPG" />
-            <Link href="http://hotelnine.mn/media/hotelnine/content/Gallery/IMG_3275.JPG" />
-            <Link href="http://hotelnine.mn/media/hotelnine/content/Gallery/IMG_3294.jpg" />
-            <Link href="http://hotelnine.mn/media/hotelnine/content/Gallery/IMG_3299.jpg" />
-            <Link href="http://hotelnine.mn/media/hotelnine/content/Gallery/IMG_3303.jpg" />
-            <Link href="http://hotelnine.mn/media/hotelnine/content/Gallery/IMG_3307.jpg" />
+            <Link href="/image/IMG_3261.png" />
+            <Link href="/image/IMG_3275.png" />
+            <Link href="/image/IMG_3294.png" />
+            <Link href="/image/IMG_3299.png" />
+            <Link href="/image/IMG_3303.png" />
+            <Link href="/image/IMG_3307.png" />
           </div>
           <p />
         </article>
@@ -228,7 +222,7 @@ export default function page() {
                 <Link className="gallery-item" href="/photo-gallery/rooms/">
                   <Image
                     alt="Rooms"
-                    src="http://hotelnine.mn/media/hotelnine/content/Gallery/.-5425868568293427037_600_x_500.JPG"
+                    src="/image/5425868568293427037_600_x_500"
                     width={360}
                     height={300}
                   />
@@ -243,7 +237,7 @@ export default function page() {
                 >
                   <Image
                     alt="Couples room"
-                    src="http://hotelnine.mn/media/hotelnine/content/Gallery/.-5425868568292427036_600_x_500.jpg"
+                    src="/image/5425868568292427036_600_x_500.png"
                     width={360}
                     height={300}
                   />

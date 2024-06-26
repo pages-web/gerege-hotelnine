@@ -232,68 +232,6 @@ export default function page() {
           </div>
         </article>
       </section>
-      {/*		<section class="gray">
-			<div class="container">
-				<div class="container-sm">
-					<div class="promotions">
-						<div class="text-center">
-							<h2>Promotions</h2>
-							<span class="header-border"></span>
-						</div>
-						<div class="row">
-							
-				            
-				            	<div class="col-sm-4">
-				            		<Link href="/book-and-choose-our-hotel22/" class="hover-image">
-				            			<Image src="/media/hotelnine/content/sample-images/promo.jpg">
-				            			<span>
-				            				<i class="fa fa-gift"></i>
-				            			</span>
-				            		</Link>
-				            		<h4>
-				            			<Link href="/book-and-choose-our-hotel22/">
-					            			Book and choose our hotel!
-					            		</Link>
-				            		</h4>
-				            		
-				            	</div>
-				            
-				            	<div class="col-sm-4">
-				            		<Link href="/book-and-choose-our-hotel2/" class="hover-image">
-				            			<Image src="/media/hotelnine/content/sample-images/promo.jpg">
-				            			<span>
-				            				<i class="fa fa-gift"></i>
-				            			</span>
-				            		</Link>
-				            		<h4>
-				            			<Link href="/book-and-choose-our-hotel2/">
-					            			Book and choose our hotel!
-					            		</Link>
-				            		</h4>
-				            		
-				            	</div>
-				            
-				            	<div class="col-sm-4">
-				            		<Link href="/book-and-choose-our-hotel/" class="hover-image">
-				            			<Image src="/media/hotelnine/content/sample-images/promo.jpg">
-				            			<span>
-				            				<i class="fa fa-gift"></i>
-				            			</span>
-				            		</Link>
-				            		<h4>
-				            			<Link href="/book-and-choose-our-hotel/">
-					            			Book and choose our hotel!
-					            		</Link>
-				            		</h4>
-				            		
-				            	</div>
-				            
-			            </div>
-					</div>
-				</div>
-				
-			</div>
-		</section>*/}
     </div>
   );
 }

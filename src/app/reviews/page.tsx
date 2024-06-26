@@ -14,7 +14,7 @@ export default function page() {
                 <div className="review_header">
                   <Image
                     alt=""
-                    src="http://hotelnine.mn/media/hotelnine/content/sample-images/.8412999807646460446_200_x_200.jpg"
+                    src="/image/8412999807646460446_200_x_200.png"
                     width={165}
                     height={165}
                   />
@@ -72,7 +72,7 @@ export default function page() {
                       was in a room which faced the Genghis Khan square and the
                       view at dusk was very nice. Staff were pleasant and
                       helpful. The breakfast did not have as much variety as
-                      other 'better' hotels but it was sufficient.
+                      other &apos;better&apos; hotels but it was sufficient.
                     </p>
                   </div>
                   <div className="space20" />
